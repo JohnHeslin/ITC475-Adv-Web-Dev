@@ -1,0 +1,14 @@
+header {
+    align-items: center;
+    display: flex;
+}
+
+li {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+a.hover {
+    color: #ffa500;
+}

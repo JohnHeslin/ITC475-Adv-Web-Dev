@@ -1,0 +1,105 @@
+header {
+    background: #add8e6;
+    border-bottom-style: solid;
+    border-bottom-color: #d3d3d3;
+    border-bottom-width: 15px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;  
+  text-align: center;
+  text-decoration: none;
+}
+
+ul a:link {
+    color:black;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #ffa500;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+    font-family: helvetica;
+    text-decoration: none;
+}
+
+h3 {
+    font-weight: bold;
+    font-family: helvetica;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+div.resort {
+    border: 1px;
+    border-style: solid;
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin: 10px;
+}
+
+div.resort a:link {
+    color:black;
+}
+
+div.resort:hover {
+    transition-duration: 1s;
+    background-color: black;
+    color: white;
+}
+
+div.resort:hover a:link {
+    color: white;
+}
+
+span.green {
+    color: green;
+}
+
+span.grey {
+    color: grey;
+}
+
+span.black {
+    color: black;
+}
+
+footer {
+    clear: both;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@Media (min-width: 768px) {
+
+    li a {
+        position: relative;
+        top: 0;
+        transition: top .5s, color .5s;
+    }
+
+    li a:hover {
+        top: -10px;
+        text-decoration: none;
+        color: #ffa500;
+    }
+}
